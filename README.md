@@ -38,19 +38,23 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## Git commit
 
 1. before you start your work, you will go to the main branch and you will pull the latest main branch:
-- git checkout main
-- git fetch
-- git pull
-
+```bash
+git checkout main
+git fetch
+git pull
+```
 
 2. pick a feature and create a branch. suppose dashboard
-- git checkout -b 'reza_dashboard'
-- git add .
-- git checkout -m "completed dashboard"
-
+```bash
+git checkout -b 'reza_dashboard'
+git add .
+git checkout -m "completed dashboard"
+```
 
 3. then merge it with main
-- git checkout main
-- git fetch
-- git pull
-> git merge reza_dashboard
+```bash
+git checkout main
+git fetch
+git pull
+git merge reza_dashboard
+```
