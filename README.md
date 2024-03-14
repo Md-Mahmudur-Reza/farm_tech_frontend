@@ -34,3 +34,23 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Git commit
+
+1. before you start your work, you will go to the main branch and you will pull the latest main branch:
+> git checkout main
+> git fetch
+> git pull
+
+
+2. pick a feature and create a branch. suppose dashboard
+> git checkout -b 'reza_dashboard'
+> git add .
+> git checkout -m "completed dashboard"
+
+
+3. then merge it with main
+> git checkout main
+> git fetch
+> git pull
+> git merge reza_dashboard
