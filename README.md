@@ -35,7 +35,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-## Git commit
+## Git operations
 
 1. before you start your work, you will go to the main branch and you will pull the latest main branch:
 ```bash
@@ -48,7 +48,7 @@ git pull
 ```bash
 git checkout -b 'reza_dashboard'
 git add .
-git checkout -m "completed dashboard"
+git commit -m "completed dashboard"
 ```
 
 3. then merge it with main
